@@ -1,0 +1,17 @@
+body {
+    background: azure;
+}
+
+.btn_wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin-right: 7px;
+    padding: 10px;
+}
+
+.container {
+    margin: auto;
+}

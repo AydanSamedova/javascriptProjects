@@ -1,0 +1,5 @@
+1. Body background btn click edende deyishsin 
+1.a. cox sade versiya, array olsun ordan secsin 
+arrayin icinde tesadufi 
+2. HEX color systeminden (#54fa01) tesadufi rengler secsin 
+2.a. hemin secilmish rengi bg color elesin ve textde cixartsin

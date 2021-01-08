@@ -1,0 +1,40 @@
+    body {
+        color: rgb(234, 238, 241);
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h2 {
+        margin: auto;
+        margin-top: 142px;
+        font-size: 40px;
+        background-color: rgba(20, 22, 24, 0.438);
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-bottom: 33px;
+    }
+    
+    #btn {
+        margin: auto;
+        padding: 5px 10px;
+        border: 2px solid rgb(25, 25, 27);
+        background-color: transparent;
+        font-size: 32px;
+        color: rgb(20, 44, 44);
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+    }
+    
+    #btn:focus {
+        outline: none;
+        color: rgba(0, 0, 0, 0.651);
+    }
+    
+    #text {
+        color: azure;
+        font-size: 30px;
+    }
