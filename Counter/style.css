@@ -1,17 +1,42 @@
-body {
-    background: azure;
-}
-
-.btn_wrap {
-    display: flex;
-    flex-direction: row;
-}
-
-button {
-    margin-right: 7px;
-    padding: 10px;
-}
-
-.container {
-    margin: auto;
-}
+    body {
+        background-image: linear-gradient(to right, rgb(106, 70, 146), violet);
+        ;
+    }
+    
+    .btn_wrap {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    button {
+        margin-right: 7px;
+        padding: 10px;
+        border: 2px solid white;
+        width: 100px;
+        outline: none;
+        height: 100px;
+        border-radius: 50%;
+        background: transparent;
+        font-size: 18px;
+    }
+    
+    .container {
+        transform: translate(40%, 50%);
+    }
+    
+    #up {
+        color: rgb(223, 223, 64);
+    }
+    
+    button:hover {
+        transform: scale(0.88);
+    }
+    
+    #down {
+        color: rgba(240, 54, 54, 0.815);
+    }
+    
+    #text {
+        font-size: 10rem;
+        padding: 0px 117px;
+    }
