@@ -1,6 +1,5 @@
     body {
-        background-image: linear-gradient(to right, rgb(106, 70, 146), violet);
-        ;
+        background-image: linear-gradient(to right, #d3cce3, #e9e4f0);
     }
     
     .btn_wrap {
@@ -21,11 +20,18 @@
     }
     
     .container {
-        transform: translate(40%, 50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     
     #up {
-        color: rgb(223, 223, 64);
+        color: white;
+    }
+    
+    #up:hover {
+        color: rgb(101, 101, 228);
     }
     
     button:hover {
@@ -33,7 +39,19 @@
     }
     
     #down {
-        color: rgba(240, 54, 54, 0.815);
+        color: white;
+    }
+    
+    #down:hover {
+        color: rgb(253, 253, 130);
+    }
+    
+    #reset {
+        color: white;
+    }
+    
+    #reset:hover {
+        color: black;
     }
     
     #text {

@@ -38,3 +38,21 @@
         color: azure;
         font-size: 30px;
     }
+    
+    #popCopy {
+        display: none;
+    }
+    
+    button {
+        background: transparent;
+        outline: none;
+        border: none;
+    }
+    
+    #btnCopy {
+        font-size: 31px;
+    }
+    
+    #btnCopy:active {
+        transform: scale(0.88);
+    }

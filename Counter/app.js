@@ -33,8 +33,8 @@ function colorCount() {
     if (count.innerText == 0) {
         count.style.color = 'black'
     } else if (count.innerText > 0) {
-        count.style.color = 'rgb(223, 223, 64)'
+        count.style.color = ' rgb(101, 101, 228)'
     } else {
-        count.style.color = 'rgba(240, 54, 54, 0.815)'
+        count.style.color = 'rgb(253, 253, 130)'
     }
 }
