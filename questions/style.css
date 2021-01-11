@@ -1,0 +1,95 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background: linear-gradient(to right, #ffeeee, #e1ebce);
+        }
+        
+        .container {
+            padding: 20px;
+            width: 1000px;
+            margin: 0 auto;
+            max-width: 650px;
+            margin-top: 100px;
+            border-radius: 10px;
+        }
+        
+        .card {
+            margin-bottom: 10px;
+        }
+        
+        .card-wrapper {
+            margin-top: 21px;
+        }
+        
+        .title {
+            text-align: center;
+            color: rgb(21, 27, 29);
+            text-transform: uppercase;
+        }
+        
+        .card-title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0.3rem 1rem;
+            background-color: rgba(0, 0, 0, 0.096);
+            border-radius: 10px;
+        }
+        
+        .question {
+            padding: 0.7rem;
+            font-size: 1.2rem;
+            color: rgb(67, 92, 104);
+        }
+        
+        .btn {
+            cursor: pointer;
+            background-color: transparent;
+            border-color: transparent;
+            color: black;
+            transition: all 0.2s ease;
+            outline: none;
+        }
+        
+        .btn:active {
+            transform: rotate(90deg);
+        }
+        
+        .btn .btn-icon {
+            font-size: 1.5rem;
+            color: rgb(67, 92, 104);
+        }
+        
+        .answer {
+            padding: 0.7rem 1.5rem;
+            background-color: rgba(209, 209, 209, 0.555);
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        
+        .answer p {
+            color: rgb(67, 92, 104);
+        }
+        
+        .answer {
+            display: none;
+        }
+        
+        .down {
+            display: none;
+        }
+        
+        .show .answer {
+            display: block;
+        }
+        
+        .show .up {
+            display: none;
+        }
+        
+        .show .down {
+            display: block;
+        }
