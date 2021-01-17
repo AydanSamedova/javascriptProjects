@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+}
+
+.grocery-cont {
+    visibility: hidden;
+}
+
+.show-container {
+    visibility: visible;
+}
+
+.alert-danger {
+    background: white;
+    color: red;
+}
+
+.alert-succees {
+    color: green;
+    background: white;
+}
