@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!---google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet" />
+    <!----font awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <title>Scroll</title>
+</head>
+
+<body>
+    <!---Section  Home---->
+    <header id="Home" class="section">
+        <!----------navbar ------------>
+        <nav id="navbar">
+            <div id="navbar-center">
+                <div class="navbar-header">
+                    <img src="img/logo.jpg" alt="logo" class="logo" />
+                    <button class="toggle-navbar">
+              <i class="fas fa-bars"></i>
+            </button>
+                </div>
+
+                <!---links -->
+
+                <div class="links-wrapper">
+                    <ul class="links">
+                        <li>
+                            <a href="#Home" class="scroll-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="scroll-link">About</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="scroll-link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#Contact" class="scroll-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!----------navbar ------------>
+
+        <!------------banner------------>
+        <div class="banner">
+            <div class="banner-wrapper">
+                <h1> Projects </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, labore.
+                </p>
+
+                <a href="#projects" class="scroll-link btn">Projects</a>
+            </div>
+        </div>
+        <!------------banner------------>
+    </header>
+
+
+    <!---Section  ABOUT---->
+    <section id="about" class="section">
+        <div class="title">
+            <h2>ABOUT US </h2>
+        </div>
+    </section>
+
+
+    <!---Section  Projects---->
+    <section id="projects" class="section">
+        <div class="title">
+            <h2>My Projects</h2>
+        </div>
+    </section>
+
+    <!---Section  Contact---->
+    <section id="Contact" class="section">
+        <div class="title">
+            <h2>Contact </h2>
+        </div>
+    </section>
+
+    <footer class="section" id="footer">
+        <p>
+            Copyright &copy; MyProjects <span id="date"></span>
+        </p>
+    </footer>
+
+    <a href="#Home" class="scroll-link top-link">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="app.js"></script>
+</body>
+
+</html>
