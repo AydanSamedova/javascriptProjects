@@ -1,0 +1,55 @@
+body {
+    color: rgb(177, 181, 184);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(14, 67, 97, 0.774);
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.countdown {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.countdown h1 {
+    font-size: 70px;
+    color: rgb(238, 251, 253);
+    margin: 1rem 0;
+}
+
+.countdown h4 {
+    font-size: 20px;
+    margin: 1rem 0;
+    color: rgb(238, 251, 253);
+}
+
+.deadline {
+    display: flex;
+    justify-content: center;
+}
+
+.time {
+    background-color: rgba(116, 201, 216, 0.877);
+    color: rgb(236, 245, 244);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.timeleft {
+    font-size: 2rem;
+}
