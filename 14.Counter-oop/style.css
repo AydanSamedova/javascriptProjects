@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(194, 156, 156, 0.233);
+}
+
+section {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-size: 55px;
+    margin: 15px 0;
+    color: rgba(8, 9, 44, 0.699);
+}
+
+h3 {
+    color: rgba(8, 9, 44, 0.815);
+    text-align: center;
+    font-size: 55px;
+    margin: 0;
+}
+
+.div-button {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    background-color: rgba(4, 33, 46, 0.527);
+    border-radius: 10px;
+    outline: none;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid rgba(4, 33, 46, 0.527);
+    color: rgba(4, 33, 46, 0.527);
+    transition: 0.6s;
+}

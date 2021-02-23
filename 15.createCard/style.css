@@ -1,0 +1,64 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: rgba(145, 138, 138, 0.068);
+        height: 100vh;
+    }
+    
+    .row {
+        margin-top: 80px;
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn {
+        margin-top: 20px;
+        width: 50%;
+        background-color: rgba(3, 122, 143, 0.548);
+    }
+    
+    h1 {
+        color: rgba(3, 122, 143, 0.774);
+    }
+    
+    i::before {
+        color: rgba(3, 122, 143, 0.774);
+        margin-right: 5px;
+        padding: 0 10px;
+    }
+    
+    .fail {
+        border: 2px solid red;
+    }
+    
+    .completed {
+        border: 2px solid green;
+    }
+    
+    .feedback {
+        display: none;
+    }
+    
+    .loading {
+        display: none;
+    }
+    
+    .disabled {
+        opacity: 0.2 !important;
+    }
+    
+    .show {
+        display: block;
+    }
+    
+    .fa-spinner {
+        font-size: 64px;
+        margin: 52px 249px;
+    }
