@@ -1,0 +1,18 @@
+.slider {
+    width: 400px;
+    height: 400px;
+    background-color: darkred;
+    margin: 30px auto;
+}
+
+.btns {
+    width: 230px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 5px 15px;
+    background-color: honeydew;
+}

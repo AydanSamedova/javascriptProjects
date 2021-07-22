@@ -1,0 +1,41 @@
+body {
+    background: rgba(54, 54, 54, 0.61);
+    color: white;
+}
+
+#myForm {
+    transform: translate(100%, 115%);
+    text-align: center;
+    width: 450px;
+    text-transform: capitalize;
+}
+
+#myInput {
+    padding: 5px 10px;
+}
+
+#btn {
+    background: lightblue;
+    padding: 5px;
+}
+
+#feedback {
+    color: whitesmoke;
+    background: rgba(220, 20, 60, 0.349);
+    text-align: center;
+    padding: 15px 0;
+    margin: 15px;
+}
+
+.none {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#lastMessage {
+    font-size: 30px;
+    color: turquoise;
+}

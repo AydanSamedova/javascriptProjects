@@ -1,0 +1,25 @@
+body {
+    background: lightblue;
+}
+
+#myDiv {
+    width: 500px;
+    margin: 150px auto;
+}
+
+#myText {
+    color: white;
+    text-align: center;
+}
+
+#myAuthor {
+    color: darkblue;
+    text-align: right;
+}
+
+#myBtn {
+    transform: translate(145%, 50%);
+    padding: 10px 15px;
+    background: white;
+    outline: none;
+}

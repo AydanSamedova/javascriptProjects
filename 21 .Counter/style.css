@@ -1,0 +1,21 @@
+body {
+    background: rgba(55, 224, 187, 0.514);
+    text-transform: capitalize;
+}
+
+#counter-box {
+    width: 500px;
+    text-align: center;
+    transform: translate(80%, 30%);
+    height: 400px;
+}
+
+#counter-value {
+    font-size: 80px;
+}
+
+#btn {
+    background: rgba(169, 169, 169, 0.363);
+    padding: 5px 10px;
+    margin: 0 15px;
+}
